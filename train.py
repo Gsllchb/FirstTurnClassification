@@ -36,7 +36,7 @@ N_JOBS = -1
 
 def main():
     print("loading data...")
-    X_train, Y_train = load_data("data/signals105MeV_train.pkl", LAYER)
+    X_train, Y_train = load_data("data/signal105MeV_train.pkl", LAYER)
 
     clf = MultiOutputClassifier(
         DecisionTreeClassifier(
@@ -50,7 +50,7 @@ def main():
     print("training model...")
     clf.fit(X_train, Y_train)
 
-    X_val, Y_val = load_data("data/signals105MeV_val.pkl", LAYER)
+    X_val, Y_val = load_data("data/signal105MeV_val.pkl", LAYER)
     y_val = flatten(Y_val)
     y_pred = flatten(clf.predict_proba(X_val))
     logloss = log_loss(y_val, y_pred)

@@ -12,7 +12,7 @@ MIN_TPR = 0.95
 
 
 def main():
-    X_test, Y_test = load_data("data/signals105MeV_test.pkl", LAYER)
+    X_test, Y_test = load_data("data/signal105MeV_test.pkl", LAYER)
     y_test = flatten(Y_test)
     y_pred = flatten(DECISION_TREES.predict_proba(X_test))
 
