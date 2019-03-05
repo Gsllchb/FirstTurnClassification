@@ -7,13 +7,16 @@ from sklearn.tree import DecisionTreeClassifier
 
 from util import *
 
-LAYER = 3
+LAYER = 0
 
+# MIN_SAMPLES_LEAVES = (
+#     266,
+#     306,
+#     197,
+#     205,
+# )
 MIN_SAMPLES_LEAVES = (
-    266,
-    306,
-    197,
-    205,
+    512,
 )
 MIN_SAMPLES_LEAF = MIN_SAMPLES_LEAVES[LAYER]
 

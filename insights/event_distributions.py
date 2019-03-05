@@ -8,7 +8,7 @@ Y_LABEL = "event density"
 
 
 def main():
-    signals = pd.read_csv("../Data/signals.zip")
+    signals = pd.read_csv("../data/signal_ana_20190221_105MeV.zip")
 
     grouped = signals.groupby("Row", sort=False).max()
 
