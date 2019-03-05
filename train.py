@@ -28,7 +28,6 @@ logloss: {logloss}
 auc: {auc}
 """
 
-VAL_SIZE = 0.1
 N_JOBS = -1
 
 

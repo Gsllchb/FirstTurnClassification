@@ -1,4 +1,7 @@
 # coding: utf-8
+from sklearn.model_selection import train_test_split
+
+import dotdot
 from data.util import *
 from util import *
 
@@ -27,16 +30,23 @@ def main():
     rename_cols(df, RENAME_MAP)
     df = merge_hits(df)
     transform(df)
-    df = group_events(df)
+    X, Y = group_events(df)
+    X_train_val, X_test, Y_train_val, Y_test = train_test_split(
+        X,
+        Y,
+        test_size=TEST_SIZE,
+        random_state=SEED,
+    )
+    X_train, X_val, Y_train, Y_val = train_test_split(
+        X_train_val,
+        Y_train_val,
+        test_size=VAL_SIZE,
+        random_state=SEED,
+    )
 
-    df.reindex(np.random.permutation(df.index), copy=False)
-    test_set = df.iloc[:TEST_SIZE]
-    val_set = df.iloc[TEST_SIZE: TEST_SIZE + VAL_SIZE]
-    train_set = df.iloc[TEST_SIZE + VAL_SIZE:]
-
-    joblib.dump(train_set, TRAIN_PATH, compress=True)
-    joblib.dump(val_set, VAL_PATH, compress=True)
-    joblib.dump(test_set, TEST_PATH, compress=True)
+    joblib.dump((X_train, Y_train), TRAIN_PATH, compress=True)
+    joblib.dump((X_val, Y_val), VAL_PATH, compress=True)
+    joblib.dump((X_test, Y_test), TEST_PATH, compress=True)
 
 
 def transform(df: pd.DataFrame) -> None:

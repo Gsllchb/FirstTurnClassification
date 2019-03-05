@@ -14,13 +14,11 @@ def main():
 
 
 def output_pdf(decision_tree, file: str) -> None:
-    features = itertools.chain(*ENERGY_NAMES, *DRIFT_NAMES)
     dot_data = export_graphviz(
         decision_tree,
         out_file=None,
         proportion=True,
         rounded=True,
-        feature_names=features,
     )
     graphviz.Source(dot_data).render(file, format="png")
 

@@ -5,10 +5,10 @@ from typing import *
 import numpy as np
 from sklearn.externals import joblib
 
-NUM_WIRE = 4482
-NUM_LAYER = 18
-NUM_CELL = tuple(range(198, 301, 6))
-assert sum(NUM_CELL) == NUM_WIRE
+N_WIRES = 4482
+N_LAYERS = 18
+N_CELLS = tuple(range(198, 301, 6))
+assert sum(N_CELLS) == N_WIRES
 
 SEED = 666
 
@@ -17,29 +17,25 @@ DTYPE_DRIFT = np.float32
 DTYPE_ENERGY = np.float32
 
 ENERGY_NAMES = tuple(tuple("energy{}_{}".format(layer, cell)
-                           for cell in range(NUM_CELL[layer]))
-                     for layer in range(NUM_LAYER))
+                           for cell in range(N_CELLS[layer]))
+                     for layer in range(N_LAYERS))
 DRIFT_NAMES = tuple(tuple("drift{}_{}".format(layer, cell)
-                          for cell in range(NUM_CELL[layer]))
-                    for layer in range(NUM_LAYER))
+                          for cell in range(N_CELLS[layer]))
+                    for layer in range(N_LAYERS))
 TURN_NAMES = tuple(tuple("turn{}_{}".format(layer, cell)
-                         for cell in range(NUM_CELL[layer]))
-                   for layer in range(NUM_LAYER))
+                         for cell in range(N_CELLS[layer]))
+                   for layer in range(N_LAYERS))
 
 
 def load_data(
         path: str,
         layer: Optional[int] = None
 ) -> Tuple[np.ndarray, np.ndarray]:
-    data = joblib.load(path)
-    features = itertools.chain(*ENERGY_NAMES, *DRIFT_NAMES)
+    X, Y = joblib.load(path)
     if layer is None:
-        targets = itertools.chain(*TURN_NAMES)
-    else:
-        targets = TURN_NAMES[layer]
-    X = data.loc[:, features].values
-    Y = data.loc[:, targets].values
-    return X, Y
+        return X, Y
+    pre_sum = tuple(itertools.accumulate(N_CELLS))
+    return X, Y[:, (pre_sum[layer - 1] if layer - 1 >= 0 else 0): pre_sum[layer]]
 
 
 def flatten(M: np.ndarray) -> np.ndarray:

@@ -1,9 +1,7 @@
 # coding: utf-8
 import array
-from typing import *
 
 import pandas as pd
-import numpy as np
 
 import dotdot
 from util import *
@@ -62,40 +60,34 @@ def merge_hits(df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame.from_dict(res)
 
 
-def group_events(df: pd.DataFrame) -> pd.DataFrame:
+def group_events(df: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray]:
     n_events = df["event"].nunique()
 
     default_energy = df["energy"].max() + 1
     default_drift = df["drift"].max() + 1
+    default_feature = max(default_energy, default_drift)
     default_turn = 0
 
-    initializer = {}
-    for layer in range(NUM_LAYER):
-        for cell in range(NUM_CELL[layer]):
-            initializer[ENERGY_NAMES[layer][cell]] = np.full(
-                n_events,
-                default_energy,
-                dtype=DTYPE_ENERGY
-            )
-            initializer[DRIFT_NAMES[layer][cell]] = np.full(
-                n_events,
-                default_drift,
-                dtype=DTYPE_DRIFT
-            )
-            initializer[TURN_NAMES[layer][cell]] = np.full(
-                n_events,
-                default_turn,
-                dtype=DTYPE_TURN
-            )
-    res = pd.DataFrame(initializer)
-    del initializer
+    assert DTYPE_DRIFT == DTYPE_ENERGY
+    features = np.full(
+        (n_events, 2 * N_WIRES),
+        fill_value=default_feature,
+        dtype=DTYPE_ENERGY
+    )
+    targets = np.full(
+        (n_events, N_WIRES),
+        fill_value=default_turn,
+        dtype=DTYPE_TURN
+    )
 
+    pre_sum = tuple(itertools.accumulate(N_CELLS))
     i = None
     for i, (_, event) in enumerate(df.groupby("event")):
         for row in event.itertuples():
-            res.loc[i, ENERGY_NAMES[row.layer][row.cell]] = row.energy
-            res.loc[i, DRIFT_NAMES[row.layer][row.cell]] = row.drift
-            res.loc[i, TURN_NAMES[row.layer][row.cell]] = row.turn
-    assert i == n_events
+            cell_index = (pre_sum[row.layer - 1] if row.layer - 1 >= 0 else 0) + row.cell
+            features[i, cell_index * 2] = row.energy
+            features[i, cell_index * 2 + 1] = row.drift
+            targets[i, cell_index] = row.turn
+    assert i == n_events - 1
 
-    return res
+    return features, targets
