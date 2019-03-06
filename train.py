@@ -2,7 +2,7 @@
 import datetime
 
 from sklearn.metrics import log_loss, roc_auc_score
-from sklearn.multioutput import MultiOutputClassifier
+from sklearn.multiclass import OneVsRestClassifier
 from sklearn.tree import DecisionTreeClassifier
 
 from util import *
@@ -38,7 +38,7 @@ def main():
     print("loading data...")
     X_train, Y_train = load_data("data/signal105MeV_train.pkl", LAYER)
 
-    clf = MultiOutputClassifier(
+    clf = OneVsRestClassifier(
         DecisionTreeClassifier(
             min_samples_leaf=MIN_SAMPLES_LEAF,
             class_weight="balanced",
