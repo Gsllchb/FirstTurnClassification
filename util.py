@@ -13,8 +13,8 @@ assert sum(N_CELLS) == N_WIRES
 SEED = 666
 
 DTYPE_TURN = np.int8
-DTYPE_DRIFT = np.float32
-DTYPE_ENERGY = np.float32
+DTYPE_DRIFT = np.float16
+DTYPE_ENERGY = np.float16
 
 ENERGY_NAMES = tuple(tuple("energy{}_{}".format(layer, cell)
                            for cell in range(N_CELLS[layer]))
