@@ -58,14 +58,14 @@ def main():
 
         plt.hist(
             positive["DT_layer"],
-            NUM_LAYER,
+            N_LAYERS,
             label=positive_label,
             density=density,
             alpha=0.5
         )
         plt.hist(
             negative["DT_layer"],
-            NUM_LAYER,
+            N_LAYERS,
             label=negative_label,
             density=density,
             alpha=0.5
