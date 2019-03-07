@@ -5,6 +5,7 @@ from sklearn.metrics import log_loss, roc_auc_score
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.tree import DecisionTreeClassifier
 
+import dot
 from util import *
 
 LAYER = 0
