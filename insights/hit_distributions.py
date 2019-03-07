@@ -10,25 +10,25 @@ BIN_NUM = 50
 
 def main():
     data = pd.read_csv("../data/signal_ana_20190221_105MeV.zip")
-    positive = data[data["MC_hit_tu"] == 1]
-    negative = data[data["MC_hit_tu"] != 1]
-    positive_label = "positive"
-    negative_label = "negative"
+    first_turns = data[data["MC_hit_tu"] == 1]
+    other_turns = data[data["MC_hit_tu"] != 1]
+    first_turns_label = "first_turns"
+    other_turns_label = "other_turns"
 
     for density in (True, False):
         y_label = "hit density" if density else "hit"
 
         plt.hist(
-            np.log2(positive["MC_hit_ed"]),
+            np.log2(first_turns["MC_hit_ed"]),
             BIN_NUM,
-            label=positive_label,
+            label=first_turns_label,
             density=density,
             alpha=0.5
         )
         plt.hist(
-            np.log2(negative["MC_hit_ed"]),
+            np.log2(other_turns["MC_hit_ed"]),
             BIN_NUM,
-            label=negative_label,
+            label=other_turns_label,
             density=density,
             alpha=0.5
         )
@@ -38,16 +38,16 @@ def main():
         plt.show()
 
         plt.hist(
-            positive["DT_drift"],
+            first_turns["DT_drift"],
             BIN_NUM,
-            label=positive_label,
+            label=first_turns_label,
             density=density,
             alpha=0.5
         )
         plt.hist(
-            negative["DT_drift"],
+            other_turns["DT_drift"],
             BIN_NUM,
-            label=negative_label,
+            label=other_turns_label,
             density=density,
             alpha=0.5
         )
@@ -57,16 +57,16 @@ def main():
         plt.show()
 
         plt.hist(
-            positive["DT_layer"],
+            first_turns["DT_layer"],
             N_LAYERS,
-            label=positive_label,
+            label=first_turns_label,
             density=density,
             alpha=0.5
         )
         plt.hist(
-            negative["DT_layer"],
+            other_turns["DT_layer"],
             N_LAYERS,
-            label=negative_label,
+            label=other_turns_label,
             density=density,
             alpha=0.5
         )
