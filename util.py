@@ -1,4 +1,6 @@
 # coding: utf-8
+import dot
+
 import itertools
 from typing import *
 
