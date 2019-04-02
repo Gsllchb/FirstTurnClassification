@@ -10,14 +10,25 @@ from util import *
 
 LAYER = 0
 
-# MIN_SAMPLES_LEAVES = (
-#     266,
-#     306,
-#     197,
-#     205,
-# )
 MIN_SAMPLES_LEAVES = (
-    512,
+    248,
+    211,
+    265,
+    150,
+    225,
+    125,
+    152,
+    128,
+    149,
+    113,
+    149,
+    85,
+    76,
+    44,
+    52,
+    32,
+    27,
+    31,
 )
 MIN_SAMPLES_LEAF = MIN_SAMPLES_LEAVES[LAYER]
 
