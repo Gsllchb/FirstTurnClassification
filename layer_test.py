@@ -8,7 +8,7 @@ from util import *
 LAYER = 0
 MIN_SAMPLES_LEAF = 512
 
-MIN_TPR = 0.99
+MIN_TPR = 0.90
 
 
 def main():
