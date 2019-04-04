@@ -20,8 +20,8 @@ RENAME_MAP = {
     "MC_hit_ed": "energy",
 }
 
-TEST_SIZE = 20_000
-VAL_SIZE = 20_000
+TEST_SIZE = 20000
+VAL_SIZE = 20000
 
 
 def main():
