@@ -7,7 +7,7 @@ from util import *
 
 def main():
     data = pd.read_csv("../data/signal_ana_20190221_105MeV.zip")
-    data = data[data["Row"] == 666]
+    data = data[data["Row"] == 6666]
     first_turns = data[data["MC_hit_tu"] == 1]
     other_turns = data[data["MC_hit_tu"] != 1]
 
@@ -17,7 +17,22 @@ def main():
         r = np.full((n_cell, ), offset + layer)
         plt.polar(theta, r, "ko", markersize=0.25)
 
+    theta = []
+    r = []
+    for hit in first_turns.itertuples():
+        theta.append(2 * np.pi * hit.DT_cell / N_CELLS[hit.DT_layer])
+        r.append(hit.DT_layer + offset)
+    plt.polar(theta, r, "bo", markersize=1, label="first turn")
+
+    theta.clear()
+    r.clear()
+    for hit in other_turns.itertuples():
+        theta.append(2 * np.pi * hit.DT_cell / N_CELLS[hit.DT_layer])
+        r.append(hit.DT_layer + offset)
+    plt.polar(theta, r, "ro", markersize=1, label="other turn")
+
     plt.yticks(tuple())
+    plt.legend()
     plt.show()
 
 
