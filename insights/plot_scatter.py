@@ -10,7 +10,7 @@ from util import *
 
 def main():
     data = pd.read_csv("../data/signal_ana_20190221_105MeV.zip")
-    data = data[data["Row"] < 100]
+    data = data[data["Row"] < 32]
     first_turns = data[data["MC_hit_tu"] == 1]
     other_turns = data[data["MC_hit_tu"] != 1]
     first_turns_label = "first turn"
@@ -20,15 +20,13 @@ def main():
         first_turns["DT_drift"],
         np.log2(first_turns["MC_hit_ed"]),
         label=first_turns_label,
-        s=1,
-        alpha=0.5,
+        s=2,
     )
     plt.scatter(
         other_turns["DT_drift"],
         np.log2(other_turns["MC_hit_ed"]),
         label=other_turns_label,
-        s=1,
-        alpha=0.5,
+        s=2,
     )
     plt.legend()
     plt.xlabel("drift time")
