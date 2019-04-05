@@ -33,7 +33,7 @@ def main():
         alpha=0.5
     )
     plt.legend()
-    plt.xlabel("log2(energy)")
+    plt.xlabel("deposit energy (log2 scale)")
     plt.ylabel(y_label)
     plt.show()
 
@@ -52,7 +52,7 @@ def main():
         alpha=0.5
     )
     plt.legend()
-    plt.xlabel("drift")
+    plt.xlabel("drift time")
     plt.ylabel(y_label)
     plt.show()
 
