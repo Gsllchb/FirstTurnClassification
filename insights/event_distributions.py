@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 import dotdot
+import numpy as np
 
 Y_LABEL = "event density"
 
@@ -26,7 +27,7 @@ def main():
         bins=18,
         density=True,
     )
-    plt.xticks(range(1, 19))
+    plt.xticks(np.arange(1.5, 19), np.arange(1, 19))
     plt.xlabel("max turn")
     plt.ylabel(Y_LABEL)
     plt.show()
