@@ -18,12 +18,14 @@ def main():
         np.log2(first_turns["MC_hit_ed"]),
         label=first_turns_label,
         s=2,
+        c="b",
     )
     plt.scatter(
         other_turns["DT_drift"],
         np.log2(other_turns["MC_hit_ed"]),
         label=other_turns_label,
         s=2,
+        c="r",
     )
     plt.legend()
     plt.xlabel("drift time")
