@@ -12,8 +12,8 @@ def main():
     data = pd.read_csv("../data/signal_ana_20190221_105MeV.zip")
     first_turns = data[data["MC_hit_tu"] == 1]
     other_turns = data[data["MC_hit_tu"] != 1]
-    first_turns_label = "first_turns"
-    other_turns_label = "other_turns"
+    first_turns_label = "first turn"
+    other_turns_label = "other turn"
 
     y_label = "hit density"
     density = True
