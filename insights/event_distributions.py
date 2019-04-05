@@ -26,7 +26,8 @@ def main():
         bins=18,
         density=True,
     )
-    plt.xlabel("max turn id")
+    plt.xticks(range(1, 19))
+    plt.xlabel("max turn")
     plt.ylabel(Y_LABEL)
     plt.show()
 
