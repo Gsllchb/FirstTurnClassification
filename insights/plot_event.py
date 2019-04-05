@@ -22,14 +22,14 @@ def main():
     for hit in first_turns.itertuples():
         theta.append(2 * np.pi * hit.DT_cell / N_CELLS[hit.DT_layer])
         r.append(hit.DT_layer + offset)
-    plt.polar(theta, r, "bo", markersize=1, label="first turn")
+    plt.polar(theta, r, "bo", markersize=2, label="first turn")
 
     theta.clear()
     r.clear()
     for hit in other_turns.itertuples():
         theta.append(2 * np.pi * hit.DT_cell / N_CELLS[hit.DT_layer])
         r.append(hit.DT_layer + offset)
-    plt.polar(theta, r, "ro", markersize=1, label="other turn")
+    plt.polar(theta, r, "ro", markersize=2, label="other turn")
 
     plt.yticks(tuple())
     plt.legend()
