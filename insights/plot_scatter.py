@@ -1,10 +1,7 @@
 # coding: utf-8
-import random
-
 import matplotlib.pyplot as plt
 import pandas as pd
 
-import dotdot
 from util import *
 
 
