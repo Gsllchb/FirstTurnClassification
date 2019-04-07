@@ -1,4 +1,5 @@
-2019-03-07 01:15:18.605596
+
+2019-03-08 14:08:26.689646
 layer: 0
 min_samples_leaf: 512
 OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
@@ -10,3 +11,2070 @@ OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', cr
           n_jobs=-1)
 logloss: 0.02549447209373626
 auc: 0.9992243274736179
+
+2019-03-08 15:32:41.740440
+layer: 0
+min_samples_leaf: 256
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=256, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024301436885779834
+auc: 0.9993719418958543
+
+2019-03-08 16:51:54.264622
+layer: 0
+min_samples_leaf: 128
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=128, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02476474048028106
+auc: 0.9988053102319537
+
+2019-03-08 17:55:08.786600
+layer: 0
+min_samples_leaf: 1024
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1024, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03241648711158357
+auc: 0.9984483324154221
+
+2019-03-08 18:47:04.562679
+layer: 0
+min_samples_leaf: 384
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=384, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02485262070729939
+auc: 0.9993223501400957
+
+2019-03-08 20:59:08.296983
+layer: 0
+min_samples_leaf: 192
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=192, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024072294406858832
+auc: 0.999251787915085
+
+2019-03-08 22:00:36.769226
+layer: 0
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024522737891894075
+auc: 0.9993558089187808
+
+2019-03-08 22:57:09.162053
+layer: 0
+min_samples_leaf: 224
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=224, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024251418081399145
+auc: 0.9993225384639652
+
+2019-03-09 00:05:07.842102
+layer: 0
+min_samples_leaf: 288
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=288, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024352553407907096
+auc: 0.9993682539449781
+
+2019-03-09 09:32:20.932592
+layer: 0
+min_samples_leaf: 240
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=240, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024293763460217256
+auc: 0.9993373592360636
+
+2019-03-09 10:43:33.400942
+layer: 0
+min_samples_leaf: 272
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=272, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024236002416918968
+auc: 0.9993647699533869
+
+2019-03-09 12:08:26.731597
+layer: 0
+min_samples_leaf: 248
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=248, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02418586360775517
+auc: 0.9993726544869767
+
+2019-03-09 12:57:05.471794
+layer: 0
+min_samples_leaf: 252
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=252, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02428563029661126
+auc: 0.9993683925572837
+
+2019-03-09 16:37:52.677771
+layer: 0
+min_samples_leaf: 244
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=244, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024292411201728776
+auc: 0.99936133084827
+
+2019-03-09 17:34:28.198421
+layer: 0
+min_samples_leaf: 246
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=246, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024325630241917993
+auc: 0.9993601571829167
+
+2019-03-09 18:33:01.848138
+layer: 1
+min_samples_leaf: 248
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=248, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021832802415884048
+auc: 0.9993832188839515
+
+2019-03-09 19:21:08.364156
+layer: 1
+min_samples_leaf: 230
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=230, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021797800753321973
+auc: 0.9993851734126032
+
+2019-03-09 20:38:14.969510
+layer: 1
+min_samples_leaf: 192
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=192, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02184003554124794
+auc: 0.9993763678339347
+
+2019-03-09 21:51:27.557802
+layer: 1
+min_samples_leaf: 211
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=211, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021945770114705623
+auc: 0.9993888819225076
+
+2019-03-09 22:46:19.516038
+layer: 1
+min_samples_leaf: 221
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=221, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021843398962006197
+auc: 0.9993846489175059
+
+2019-03-10 09:32:18.992131
+layer: 1
+min_samples_leaf: 202
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=202, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021881911227751964
+auc: 0.9993801196196832
+
+2019-03-10 10:26:29.788680
+layer: 1
+min_samples_leaf: 216
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=216, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021834631864615428
+auc: 0.99938880340994
+
+2019-03-10 12:13:39.914580
+layer: 1
+min_samples_leaf: 207
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=207, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021844594342880098
+auc: 0.9993764218569731
+
+2019-03-10 13:22:43.346595
+layer: 2
+min_samples_leaf: 211
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=211, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024507624234733787
+auc: 0.9993579368577425
+
+2019-03-10 15:02:02.501362
+layer: 2
+min_samples_leaf: 192
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=192, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024455244368268084
+auc: 0.9993288118013689
+
+2019-03-10 15:50:52.360417
+layer: 2
+min_samples_leaf: 240
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=240, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024536784181302784
+auc: 0.9993780833126322
+
+2019-03-10 16:47:01.351282
+layer: 2
+min_samples_leaf: 260
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=260, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024665773323745015
+auc: 0.9993827784703881
+
+2019-03-10 18:11:20.923982
+layer: 2
+min_samples_leaf: 280
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=280, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024640276797394313
+auc: 0.9993842505888506
+
+2019-03-10 19:07:54.721676
+layer: 2
+min_samples_leaf: 480
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=480, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026286726312566223
+auc: 0.9992749995734103
+
+2019-03-10 20:11:09.422044
+layer: 2
+min_samples_leaf: 380
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=380, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02538217947615412
+auc: 0.999334532029395
+
+2019-03-10 22:28:33.246276
+layer: 2
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.025179775275979987
+auc: 0.9993619201790016
+
+2019-03-10 23:43:29.523820
+layer: 2
+min_samples_leaf: 300
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=300, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024746603635946697
+auc: 0.9993774622501497
+
+2019-03-11 09:57:54.285370
+layer: 2
+min_samples_leaf: 270
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=270, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02466271863493756
+auc: 0.9993877223174106
+
+2019-03-11 11:09:26.891403
+layer: 2
+min_samples_leaf: 275
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=275, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024714886303478203
+auc: 0.9993849153299955
+
+2019-03-11 11:59:02.201022
+layer: 2
+min_samples_leaf: 265
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=265, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024620890613325615
+auc: 0.9993906590907474
+
+2019-03-11 14:02:27.867935
+layer: 3
+min_samples_leaf: 300
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=300, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.024357737297471312
+auc: 0.9993682230400763
+
+2019-03-11 15:06:10.947683
+layer: 3
+min_samples_leaf: 200
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=200, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02344864042656685
+auc: 0.9994590037655391
+
+2019-03-11 16:18:01.598355
+layer: 3
+min_samples_leaf: 250
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=250, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.023928714405472815
+auc: 0.9994133703165883
+
+2019-03-11 17:58:27.522693
+layer: 3
+min_samples_leaf: 150
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=150, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.023107724951135864
+auc: 0.9995016081506888
+
+2019-03-11 18:50:46.208616
+layer: 3
+min_samples_leaf: 100
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=100, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022785484971538855
+auc: 0.9994043553062775
+
+2019-03-11 20:04:11.118876
+layer: 3
+min_samples_leaf: 175
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=175, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.023465025988696826
+auc: 0.9994745471593073
+
+2019-03-11 21:33:28.893391
+layer: 3
+min_samples_leaf: 125
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=125, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022868730893314804
+auc: 0.9994970132777363
+
+2019-03-11 23:24:42.065414
+layer: 3
+min_samples_leaf: 163
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=163, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.023261628649943165
+auc: 0.9994841993501784
+
+2019-03-12 13:02:59.384624
+layer: 3
+min_samples_leaf: 138
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=138, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02299133805831293
+auc: 0.9994993640469602
+
+2019-03-12 15:37:16.196125
+layer: 3
+min_samples_leaf: 157
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=157, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.023127211596877324
+auc: 0.9994926041951764
+
+2019-03-12 17:25:52.538160
+layer: 4
+min_samples_leaf: 300
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=300, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.029705724053856252
+auc: 0.9990968102863915
+
+2019-03-12 19:09:52.217038
+layer: 4
+min_samples_leaf: 100
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=100, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.028840346268133758
+auc: 0.9988527373119465
+
+2019-03-12 20:38:17.281876
+layer: 4
+min_samples_leaf: 200
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=200, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02871902175176567
+auc: 0.9991671712006017
+
+2019-03-12 21:42:44.835413
+layer: 4
+min_samples_leaf: 250
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=250, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.029181359365106758
+auc: 0.9991650065074228
+
+2019-03-12 23:18:16.765913
+layer: 4
+min_samples_leaf: 150
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=150, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02857589501584125
+auc: 0.9991016240357954
+
+2019-03-13 12:51:39.125391
+layer: 4
+min_samples_leaf: 225
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=225, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02896068462173353
+auc: 0.9991893336782376
+
+2019-03-13 14:34:17.321441
+layer: 4
+min_samples_leaf: 213
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=213, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.028698543598855618
+auc: 0.9991776393810112
+
+2019-03-13 15:59:26.223505
+layer: 4
+min_samples_leaf: 238
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=238, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.029175955709648125
+auc: 0.9991758926119229
+
+2019-03-13 18:07:15.438548
+layer: 5
+min_samples_leaf: 300
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=300, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.027673589875864553
+auc: 0.9991179953607114
+
+2019-03-13 19:34:10.777702
+layer: 5
+min_samples_leaf: 100
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=100, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02937818552177015
+auc: 0.9992033072937045
+
+2019-03-13 21:39:27.875938
+layer: 5
+min_samples_leaf: 200
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=200, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02749213339388878
+auc: 0.9992107078542937
+
+2019-03-13 22:36:15.961275
+layer: 5
+min_samples_leaf: 150
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=150, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02812515111000829
+auc: 0.9992593848306341
+
+2019-03-14 00:53:45.704523
+layer: 5
+min_samples_leaf: 175
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=175, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.028015608426769915
+auc: 0.9992338133356315
+
+2019-03-14 10:31:59.898525
+layer: 5
+min_samples_leaf: 125
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=125, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02858064088084102
+auc: 0.9992704255296998
+
+2019-03-14 12:23:30.827372
+layer: 5
+min_samples_leaf: 138
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=138, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.028308942879354797
+auc: 0.9992673565910671
+
+2019-03-14 17:07:31.467550
+layer: 5
+min_samples_leaf: 114
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=114, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02863824291056034
+auc: 0.9992666060067096
+
+2019-03-14 18:29:57.170501
+layer: 6
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03079938411515585
+auc: 0.9989172712932668
+
+2019-03-14 19:47:29.437336
+layer: 6
+min_samples_leaf: 64
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=64, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03376470686521647
+auc: 0.9982309745979829
+
+2019-03-14 21:02:31.796591
+layer: 6
+min_samples_leaf: 192
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=192, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.030181083748695495
+auc: 0.9991340677305752
+
+2019-03-14 22:06:03.423917
+layer: 6
+min_samples_leaf: 256
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=256, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03081315825034516
+auc: 0.9990193762416473
+
+2019-03-14 23:26:28.522835
+layer: 6
+min_samples_leaf: 128
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=128, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.030537204804145898
+auc: 0.9991196880888735
+
+2019-03-15 00:24:52.752090
+layer: 6
+min_samples_leaf: 160
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=160, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.030659869703823426
+auc: 0.9991488582147385
+
+2019-03-15 10:10:37.127200
+layer: 6
+min_samples_leaf: 176
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=176, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.030326439247975526
+auc: 0.9991476863424479
+
+2019-03-15 12:26:47.208333
+layer: 6
+min_samples_leaf: 144
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=144, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03065896142929074
+auc: 0.9991543254697716
+
+2019-03-15 19:25:21.486445
+layer: 6
+min_samples_leaf: 136
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=136, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.030745776076741397
+auc: 0.9991320981856446
+
+2019-03-15 20:19:47.612156
+layer: 6
+min_samples_leaf: 152
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=152, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.03051896894849002
+auc: 0.9991575617905496
+
+2019-03-15 22:01:33.055069
+layer: 7
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02543794356476968
+auc: 0.9991331845948216
+
+2019-03-15 23:13:34.308357
+layer: 7
+min_samples_leaf: 128
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=128, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026600353139273065
+auc: 0.9993293298400555
+
+2019-03-16 10:42:33.979773
+layer: 7
+min_samples_leaf: 224
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=224, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.025620351138543447
+auc: 0.9992408478779488
+
+2019-03-16 11:45:19.759474
+layer: 7
+min_samples_leaf: 176
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=176, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.025898074739486472
+auc: 0.9992867862452659
+
+2019-03-16 12:40:33.208084
+layer: 7
+min_samples_leaf: 152
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=152, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02626641131258136
+auc: 0.9993104643189893
+
+2019-03-16 16:53:58.515956
+layer: 7
+min_samples_leaf: 96
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=96, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.027469195502468683
+auc: 0.9992610375993668
+
+2019-03-16 17:45:55.357780
+layer: 7
+min_samples_leaf: 140
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=140, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026234183307784133
+auc: 0.9993251545745575
+
+2019-03-16 19:04:36.940322
+layer: 7
+min_samples_leaf: 112
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=112, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026878378275360812
+auc: 0.9993183175785155
+
+2019-03-16 21:48:47.230641
+layer: 8
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.027187522598504463
+auc: 0.9990406214837877
+
+2019-03-16 23:02:33.783263
+layer: 8
+min_samples_leaf: 92
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=92, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.027110073603740625
+auc: 0.9991319450542742
+
+2019-03-17 20:50:23.283517
+layer: 8
+min_samples_leaf: 206
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=206, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02600415964726125
+auc: 0.9992064446959278
+
+2019-03-17 23:40:31.557010
+layer: 8
+min_samples_leaf: 149
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=149, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026346549557205393
+auc: 0.9992523728176183
+
+2019-03-18 09:30:40.944481
+layer: 8
+min_samples_leaf: 177
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=177, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02621752885013435
+auc: 0.9992322361342698
+
+2019-03-18 10:29:21.611621
+layer: 8
+min_samples_leaf: 121
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=121, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.026469163289277772
+auc: 0.9992513752533106
+
+2019-03-18 20:53:15.438003
+layer: 8
+min_samples_leaf: 163
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=163, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02654965532339977
+auc: 0.9992435232530648
+
+2019-03-18 21:58:28.634152
+layer: 8
+min_samples_leaf: 135
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=135, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02654403844910285
+auc: 0.9992431988727116
+
+2019-03-18 23:02:16.116677
+layer: 9
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02117950189987728
+auc: 0.9991843513175612
+
+2019-03-19 00:10:33.460462
+layer: 9
+min_samples_leaf: 92
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=92, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02295689293326804
+auc: 0.9993432471835892
+
+2019-03-19 09:39:50.566028
+layer: 9
+min_samples_leaf: 206
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=206, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.020850071839887806
+auc: 0.9993289455021872
+
+2019-03-19 17:45:27.625204
+layer: 9
+min_samples_leaf: 149
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=149, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022010579817689276
+auc: 0.9993655670434272
+
+2019-03-19 19:19:00.394384
+layer: 9
+min_samples_leaf: 120
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=120, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022595958162701556
+auc: 0.9993845338928834
+
+2019-03-19 22:04:49.252495
+layer: 9
+min_samples_leaf: 134
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=134, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022188859360149568
+auc: 0.9993804111242092
+
+2019-03-19 23:15:46.445038
+layer: 9
+min_samples_leaf: 106
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=106, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022610375013422255
+auc: 0.9993891447018662
+
+2019-03-20 09:48:17.221638
+layer: 9
+min_samples_leaf: 113
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=113, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.022522960622959252
+auc: 0.9993948202984632
+
+2019-03-20 18:09:49.443001
+layer: 10
+min_samples_leaf: 320
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=320, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021240521875464772
+auc: 0.9990941654781832
+
+2019-03-20 20:07:43.888497
+layer: 10
+min_samples_leaf: 92
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=92, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021413600011837907
+auc: 0.9991501919782197
+
+2019-03-20 22:27:06.436684
+layer: 10
+min_samples_leaf: 206
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=206, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.020675360948542387
+auc: 0.9992743411314016
+
+2019-03-21 00:20:48.449189
+layer: 10
+min_samples_leaf: 149
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=149, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02099110394960886
+auc: 0.9993167115895573
+
+2019-03-21 10:14:25.535347
+layer: 10
+min_samples_leaf: 177
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=177, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.020646762141067667
+auc: 0.9993035743670838
+
+2019-03-21 12:45:00.097755
+layer: 10
+min_samples_leaf: 120
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=120, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.021524146454055617
+auc: 0.9992941191557847
+
+2019-03-21 21:07:12.576921
+layer: 10
+min_samples_leaf: 134
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=134, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.02127936793710231
+auc: 0.9993138254346629
+
+2019-03-21 22:35:22.086499
+layer: 10
+min_samples_leaf: 163
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=163, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.020884969397879267
+auc: 0.9993149583945389
+
+2019-03-21 23:41:18.134498
+layer: 11
+min_samples_leaf: 256
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=256, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.015656361580077584
+auc: 0.9993121337076305
+
+2019-03-22 10:55:42.287176
+layer: 11
+min_samples_leaf: 92
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=92, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0168405038749526
+auc: 0.9995068844081366
+
+2019-03-22 12:07:32.499187
+layer: 11
+min_samples_leaf: 174
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=174, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.015697613203266833
+auc: 0.9994229378315486
+
+2019-03-22 13:37:54.410520
+layer: 11
+min_samples_leaf: 133
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=133, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.015993931243092934
+auc: 0.9994790176579602
+
+2019-03-22 16:11:30.519051
+layer: 11
+min_samples_leaf: 112
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=112, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.016328543201212298
+auc: 0.9994998463896497
+
+2019-03-22 17:17:44.013360
+layer: 11
+min_samples_leaf: 102
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=102, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.01671407425655775
+auc: 0.9995018746717814
+
+2019-03-22 18:19:28.073004
+layer: 11
+min_samples_leaf: 97
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=97, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.016868594500725663
+auc: 0.9995008618866527
+
+2019-03-22 20:33:54.435578
+layer: 11
+min_samples_leaf: 64
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=64, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.01826408708724051
+auc: 0.9995048207426361
+
+2019-03-22 21:49:54.698890
+layer: 11
+min_samples_leaf: 78
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=78, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.017620632516429334
+auc: 0.9995104726616113
+
+2019-03-22 23:14:41.134744
+layer: 11
+min_samples_leaf: 85
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=85, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.017152495339640268
+auc: 0.9995114350452864
+
+2019-03-23 00:14:12.936114
+layer: 12
+min_samples_leaf: 256
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=256, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.013444347935715702
+auc: 0.9993240744621398
+
+2019-03-23 10:19:11.973570
+layer: 12
+min_samples_leaf: 64
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=64, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.015148361679589275
+auc: 0.9995182877476457
+
+2019-03-23 11:51:56.527584
+layer: 12
+min_samples_leaf: 160
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=160, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.013988270934962525
+auc: 0.9994267343177404
+
+2019-03-23 13:09:58.054568
+layer: 12
+min_samples_leaf: 112
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=112, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.013830398309599229
+auc: 0.9995028661965729
+
+2019-03-23 15:15:28.718631
+layer: 12
+min_samples_leaf: 88
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=88, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.014296395086572903
+auc: 0.9995211310071134
+
+2019-03-23 16:30:33.010949
+layer: 12
+min_samples_leaf: 100
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=100, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.014248791146314443
+auc: 0.9995057052525804
+
+2019-03-23 17:35:09.532069
+layer: 12
+min_samples_leaf: 76
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=76, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.014631195191395916
+auc: 0.9995225775159946
+
+2019-03-23 19:06:10.308034
+layer: 13
+min_samples_leaf: 256
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=256, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.008966250953239364
+auc: 0.9992832654065094
+
+2019-03-23 21:01:30.312544
+layer: 13
+min_samples_leaf: 62
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=62, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.010973740285964912
+auc: 0.9994092639301465
+
+2019-03-23 22:31:28.730779
+layer: 13
+min_samples_leaf: 159
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=159, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.009391869563667214
+auc: 0.9993437132111719
+
+2019-03-24 00:18:25.805124
+layer: 13
+min_samples_leaf: 110
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=110, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.009890855228943294
+auc: 0.9993826468310401
+
+2019-03-24 08:53:56.174270
+layer: 13
+min_samples_leaf: 86
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=86, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.010083227603661617
+auc: 0.9993949905753431
+
+2019-03-24 12:01:08.081894
+layer: 13
+min_samples_leaf: 74
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=74, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.010395435718560397
+auc: 0.9994031224348688
+
+2019-03-24 13:25:20.470527
+layer: 13
+min_samples_leaf: 68
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=68, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.010705310811825377
+auc: 0.9994034228445916
+
+2019-03-24 14:55:06.487871
+layer: 13
+min_samples_leaf: 32
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=32, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.012881539919991535
+auc: 0.9990657944297187
+
+2019-03-24 16:20:38.523861
+layer: 13
+min_samples_leaf: 47
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=47, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.011603274926307229
+auc: 0.9994211663550443
+
+2019-03-24 17:22:14.824782
+layer: 13
+min_samples_leaf: 54
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=54, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.011292222946067455
+auc: 0.9994129508579774
+
+2019-03-24 19:18:03.553254
+layer: 13
+min_samples_leaf: 40
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=40, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.012188895488423647
+auc: 0.9994209018183918
+
+2019-03-24 20:26:34.146497
+layer: 13
+min_samples_leaf: 44
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=44, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.011783644179528839
+auc: 0.9994210594168979
+
+2019-03-24 21:29:33.568033
+layer: 14
+min_samples_leaf: 192
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=192, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.00614006769243511
+auc: 0.9993313054038666
+
+2019-03-24 23:21:35.678160
+layer: 14
+min_samples_leaf: 32
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=32, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.008250821056829677
+auc: 0.9990290840773853
+
+2019-03-25 22:57:58.090760
+layer: 14
+min_samples_leaf: 112
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=112, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.006315872605193042
+auc: 0.9993991246915647
+
+2019-03-26 01:10:45.498535
+layer: 14
+min_samples_leaf: 72
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=72, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.006787616941692482
+auc: 0.9994144978218451
+
+2019-03-26 10:26:42.709329
+layer: 14
+min_samples_leaf: 52
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=52, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.007394386141096954
+auc: 0.9994178558076388
+
+2019-03-26 14:17:18.776275
+layer: 14
+min_samples_leaf: 42
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=42, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.007507613069455837
+auc: 0.9993957330947699
+
+2019-03-26 15:32:24.263890
+layer: 14
+min_samples_leaf: 62
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=62, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.006953653327473121
+auc: 0.9994178959704345
+
+2019-03-26 17:04:11.896246
+layer: 15
+min_samples_leaf: 128
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=128, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0026666270889143143
+auc: 0.9981487937184381
+
+2019-03-26 18:36:07.884642
+layer: 15
+min_samples_leaf: 32
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=32, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.003552339353214144
+auc: 0.9981710720329569
+
+2019-03-26 20:15:38.705157
+layer: 15
+min_samples_leaf: 80
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=80, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0027037922964977556
+auc: 0.9981608521607331
+
+2019-03-26 22:24:08.855849
+layer: 15
+min_samples_leaf: 104
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=104, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0026658939048037683
+auc: 0.9981575835818637
+
+2019-03-26 23:31:57.022603
+layer: 15
+min_samples_leaf: 56
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=56, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0031031842669810255
+auc: 0.9981648887192556
+
+2019-03-27 11:33:28.029756
+layer: 15
+min_samples_leaf: 16
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=16, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.004396175055373706
+auc: 0.9967086917124359
+
+2019-03-27 13:44:04.010248
+layer: 15
+min_samples_leaf: 44
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=44, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0033598141976072383
+auc: 0.9981690275036116
+
+2019-03-27 17:57:19.643740
+layer: 15
+min_samples_leaf: 38
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=38, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.003418390972269808
+auc: 0.9981698415729391
+
+2019-03-27 19:27:23.041838
+layer: 15
+min_samples_leaf: 24
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=24, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0038625369595970123
+auc: 0.9978038498023506
+
+2019-03-27 23:26:38.024876
+layer: 16
+min_samples_leaf: 104
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=104, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.015349640763121591
+auc: 0.8822666740976931
+
+2019-03-28 13:34:42.458729
+layer: 16
+min_samples_leaf: 16
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=16, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.001250168710684349
+auc: 0.980954120695549
+
+2019-03-28 16:24:17.400547
+layer: 16
+min_samples_leaf: 60
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=60, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.008510232399930581
+auc: 0.9041281704254419
+
+2019-03-28 19:08:09.314261
+layer: 16
+min_samples_leaf: 38
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=38, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.002174842132137914
+auc: 0.9741366285259898
+
+2019-03-28 20:48:57.074069
+layer: 16
+min_samples_leaf: 27
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=27, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0010599848700347488
+auc: 0.9823038722327496
+
+2019-03-28 23:16:33.242316
+layer: 17
+min_samples_leaf: 64
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=64, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0021613718312749317
+auc: 0.5395716840212007
+
+2019-03-29 01:02:55.100090
+layer: 17
+min_samples_leaf: 16
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=16, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0008144221205753947
+auc: 0.4999754997427473
+
+2019-03-29 18:38:20.842173
+layer: 17
+min_samples_leaf: 40
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=40, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0014054448282140863
+auc: 0.5713659517234455
+
+2019-03-29 20:33:45.703671
+layer: 17
+min_samples_leaf: 28
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=28, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.001275199453102566
+auc: 0.5475680034322901
+
+2019-03-29 21:46:29.288076
+layer: 17
+min_samples_leaf: 34
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=34, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0013307375498206211
+auc: 0.6031176687143575
+
+2019-03-29 23:01:04.794173
+layer: 17
+min_samples_leaf: 31
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=31, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0012166566676191342
+auc: 0.611058346006813
+
+2019-03-30 14:30:42.488055
+layer: 17
+min_samples_leaf: 31
+OneVsRestClassifier(estimator=DecisionTreeClassifier(class_weight='balanced', criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=31, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=666,
+            splitter='best'),
+          n_jobs=-1)
+logloss: 0.0012166566676191342
+auc: 0.611058346006813
