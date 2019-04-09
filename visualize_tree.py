@@ -6,7 +6,7 @@ from sklearn.tree import export_graphviz
 from util import *
 
 
-DECISION_TREE = joblib.load("Models/DecisionTrees0.0.001.pkl").estimators_[66]
+DECISION_TREE = joblib.load("Models/DecisionTrees0.248.pkl").estimators_[30]
 
 
 def main():

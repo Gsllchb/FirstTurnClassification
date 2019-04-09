@@ -12,14 +12,15 @@ MIN_TPR = 0.90
 def main():
     clfs = []
     for layer, leaf in enumerate(MIN_SAMPLES_LEAVES):
-        clfs.append(joblib.load("models/DecisionTrees{}.{}.pkl".format(layer, leaf)))
+        clf = joblib.load("models/DecisionTrees{}.{}.pkl".format(layer, leaf))
+        clfs.append(clf)
     X_test, Y_test = load_data("data/signal105MeV_test.pkl")
     y_test = flatten(Y_test)
 
-    Y_pred = clfs[0].predict_proba(X_test)
-    for layer, clf in enumerate(clfs[1:], 1):
-        sub_pred = clf.predict_proba(X_test)
-        Y_pred = np.hstack((Y_pred, sub_pred))
+    sub_preds = []
+    for layer, clf in enumerate(clfs):
+        sub_preds.append(clf.predict_proba(X_test))
+    Y_pred = np.hstack(sub_preds)
     y_pred = flatten(Y_pred)
 
     logloss = log_loss(y_test, y_pred)
