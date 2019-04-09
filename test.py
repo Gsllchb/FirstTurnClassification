@@ -4,9 +4,9 @@ import dot
 from sklearn.metrics import log_loss, roc_auc_score, roc_curve
 
 from util import *
-from layer_train import MIN_SAMPLES_LEAVES
+from layerly_train import MIN_SAMPLES_LEAVES
 
-MIN_TPR = 0.90
+MIN_TPR = 0.99
 
 
 def main():
@@ -31,6 +31,7 @@ def main():
 
     n_null_hits = np.sum(X_test == X_test.max()) // 2
     null_hit_rate = n_null_hits / np.sum(Y_test == 0)
+    # null_hit_rate = 0
 
     fprs, tprs, _ = roc_curve(y_test, y_pred)
     for fpr, tpr in zip(fprs, tprs):
