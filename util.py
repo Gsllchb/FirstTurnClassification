@@ -44,3 +44,14 @@ def flatten(M: np.ndarray) -> np.ndarray:
     """Flatten 2-dimension array to 1-dimension array"""
     length = M.shape[0] * M.shape[1]
     return M.reshape((length,))
+
+
+def get_pa_nr_and_threshold(fprs, tprs, thresholds, min_tprs, calibration=0):
+    res = []
+    for min_tpr in min_tprs:
+        for fpr, tpr, threshold in zip(fprs, tprs, thresholds):
+            if tpr >= min_tpr:
+                rejection = ((1 - fpr) - calibration) / (1 - calibration)
+                res.append((tpr, rejection, threshold))
+                break
+    return res
