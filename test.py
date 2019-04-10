@@ -1,7 +1,7 @@
 # coding: utf-8
 """Test the overall metrics of final models in hit and event levels"""
-from sklearn.metrics import log_loss, auc, roc_curve
-
+from sklearn.metrics import auc, roc_curve
+import matplotlib.pyplot as plt
 from layerly_train import MIN_SAMPLES_LEAVES
 from util import *
 
@@ -53,6 +53,8 @@ def report_hit_level(X_test, Y_test, Y_pred, min_tprs) -> None:
     for (pa, nr_raw, threshold), (_, nr_calibrated, _) in zip(pa_nr_and_threshold1, pa_nr_and_threshold2):
         print("{}\t{}\t{}\t{}".format(pa, nr_raw, nr_calibrated, threshold))
 
+    plot_roc(fprs, tprs)
+
 
 def report_event_level(X_test, Y_test, Y_pred, min_tprs) -> None:
     print("Metrics report for event level")
@@ -86,6 +88,16 @@ def report_event_level(X_test, Y_test, Y_pred, min_tprs) -> None:
     print("PA\tNR\tthreshold")
     for pa, nr, threshold in pa_nr_and_threshold:
         print("{}\t{}\t{}".format(pa, nr, threshold))
+
+    plot_roc(fprs, tprs)
+
+
+def plot_roc(fprs, tprs) -> None:
+    plt.plot(fprs, tprs)
+    plt.plot((0, 1), (0, 1), "--")
+    plt.xlabel("FPR")
+    plt.ylabel("TPR")
+    plt.show()
 
 
 if __name__ == '__main__':
