@@ -1,4 +1,5 @@
 # coding: utf-8
+"""Train models layer by layer."""
 import datetime
 
 from sklearn.metrics import log_loss, roc_auc_score

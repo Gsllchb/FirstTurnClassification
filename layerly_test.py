@@ -1,4 +1,5 @@
 # coding: utf-8
+"""Test the model for a certain layer."""
 import dot
 
 from sklearn.metrics import log_loss, roc_auc_score, roc_curve
