@@ -5,7 +5,7 @@ from sklearn.metrics import log_loss, auc, roc_curve
 from layerly_train import MIN_SAMPLES_LEAVES
 from util import *
 
-MIN_TPR = 0.99
+MIN_TPR = 0.90
 
 
 def main():
