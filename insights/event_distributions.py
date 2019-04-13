@@ -25,11 +25,12 @@ def main():
     plt.hist(
         grouped["MC_hit_tu"],
         bins=18,
-        density=True,
+        density=False,
+        log=True,
     )
     plt.xticks(np.arange(1.5, 19), np.arange(1, 19))
     plt.xlabel("max turn")
-    plt.ylabel(Y_LABEL)
+    plt.ylabel("number of events")
     plt.show()
 
     grouped = signals.groupby("Row").count()
@@ -39,7 +40,7 @@ def main():
         bins=50,
         density=True,
     )
-    plt.xlabel("hit amount")
+    plt.xlabel("number of hits")
     plt.ylabel(Y_LABEL)
     plt.show()
 
